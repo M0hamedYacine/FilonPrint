@@ -1,4 +1,4 @@
-const PersonnalisationContent = () => {
+const PersonnalisationContent_rigth = () => {
   return (
     <div>
       {/* PARTIE PERSONALISATION */}
@@ -22,4 +22,4 @@ const PersonnalisationContent = () => {
   );
 };
 
-export default PersonnalisationContent;
+export default PersonnalisationContent_rigth;

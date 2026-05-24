@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X} from "lucide-react";
+import { Link } from "react-router";
 
 const Header = () => {
 
@@ -132,12 +133,9 @@ const Header = () => {
 
           {/* Liens de Navigation */}
           <ul className="flex flex-wrap items-end justify-center gap-4 lg:gap-8 text-md text-zinc-900 ">
-            <li className=" px-3 hover:border-b-3 py-2   font-semibold hover:text-amber-300 cursor-pointer">
-              Accueil
-            </li>
-            <li className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">
-              Boutique
-            </li>
+            <Link to="/" className=" px-3 hover:border-b-3 py-2   font-semibold hover:text-amber-300 cursor-pointer" >Accueil</Link>
+            <Link to="/Notre-Boutique" className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">Boutique</Link>
+            
             <li className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">
               Personnalisation
             </li>
