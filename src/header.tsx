@@ -136,9 +136,9 @@ const Header = () => {
             <Link to="/" className=" px-3 hover:border-b-3 py-2   font-semibold hover:text-amber-300 cursor-pointer" >Accueil</Link>
             <Link to="/Notre-Boutique" className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">Boutique</Link>
             
-            <li className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">
+            <Link to="/Personalisation-sur-mersure" className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">
               Personnalisation
-            </li>
+            </Link>
             <li className="hover:border-b-3 py-2 px-3 transition-all font-semibold hover:text-amber-300 cursor-pointer">
               Nous Contacter
             </li>

@@ -7,6 +7,7 @@ import Header from "./header";
 import Footer from "./Footer";
 import BoutiquePage from "./Boutique";
 import DashboardPage from "./Dasboard";
+import PersonalisationPage from "./PersonalisationPage";
 
 function App() {
   const [infoPlus, setInfoPlus] = useState(false);
@@ -21,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<DashboardPage/>} />
         <Route path="/Notre-Boutique" element={<BoutiquePage />}/>
+        <Route path="/Personalisation-sur-mersure" element={<PersonalisationPage />} />
+
       </Routes>
 
 

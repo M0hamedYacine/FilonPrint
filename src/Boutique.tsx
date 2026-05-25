@@ -1,6 +1,4 @@
 import HeroZone1 from "./HeroZone_one";
-import NewCollectionContent from "./NewCollection";
-import PersonnalisationContent_rigth from "./Personnalisation_right";
 
 const BoutiquePage = () => {
   return (
@@ -18,16 +16,16 @@ const BoutiquePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 ">
             {/* Produit 1 */}
             <div className="group flex flex-col bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="overflow-hidden bg-gray-50 aspect-[3/4]">
+              <div className="overflow-hidden bg-gray-50 aspect-3/4">
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="p-3 flex flex-col flex-grow">
+              <div className="p-3 flex flex-col grow">
                 <p className="font-bold text-lg text-black">Nom du produit</p>
-                <p className="text-sm font-medium text-zinc-800 line-clamp-2 flex-grow">
+                <p className="text-sm font-medium text-zinc-800 line-clamp-2 grow">
                   Description du produits
                 </p>
                 <button className="btn  border-2 border-green-200 btn-success btn-soft mt-4 mb-2">
@@ -38,16 +36,16 @@ const BoutiquePage = () => {
 
             {/* Produit 2 */}
             <div className="group flex flex-col bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="overflow-hidden bg-gray-50 aspect-[3/4]">
+              <div className="overflow-hidden bg-gray-50 aspect-3/4">
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="p-3 flex flex-col flex-grow">
+              <div className="p-3 flex flex-col grow">
                 <p className="font-bold text-lg text-black">Nom du produit</p>
-                <p className="text-sm font-medium text-zinc-800 line-clamp-2 flex-grow">
+                <p className="text-sm font-medium text-zinc-800 line-clamp-2 grow">
                   Description du produits
                 </p>
                 <button className="btn  border-2 border-green-200 btn-success btn-soft mt-4 mb-2">
@@ -58,16 +56,16 @@ const BoutiquePage = () => {
 
             {/* Produit 3 */}
             <div className="group flex flex-col bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="overflow-hidden bg-gray-50 aspect-[3/4]">
+              <div className="overflow-hidden bg-gray-50 aspect-3/4">
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="p-3 flex flex-col flex-grow">
+              <div className="p-3 flex flex-col grow">
                 <p className="font-bold text-lg text-black">Nom du produit</p>
-                <p className="text-sm font-medium text-zinc-800 line-clamp-2 flex-grow">
+                <p className="text-sm font-medium text-zinc-800 line-clamp-2 grow">
                   Description du produits
                 </p>
                 <button className="btn  border-2 border-green-200 btn-success btn-soft mt-4 mb-2">
@@ -78,16 +76,16 @@ const BoutiquePage = () => {
 
             {/* Produit 4 */}
             <div className="group flex flex-col bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="overflow-hidden bg-gray-50 aspect-[3/4]">
+              <div className="overflow-hidden bg-gray-50 aspect-3/4">
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <div className="p-3 flex flex-col flex-grow">
+              <div className="p-3 flex flex-col grow">
                 <p className="font-bold text-lg text-black">Nom du produit</p>
-                <p className="text-sm font-medium text-zinc-800 line-clamp-2 flex-grow">
+                <p className="text-sm font-medium text-zinc-800 line-clamp-2 grow">
                   Description du produits
                 </p>
                 <button className="btn  border-2 border-green-200 btn-success btn-soft mt-4 mb-2">
@@ -111,37 +109,37 @@ const BoutiquePage = () => {
             {/* Filtre 1 : Types de vêtements */}
             <form className="filter">
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="T-shirt"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="La Coste"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Pull"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Puzzle"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Tasse"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Casquette"
@@ -152,25 +150,25 @@ const BoutiquePage = () => {
             {/* Filtre 2 : Thématiques / Collections */}
             <form className="filter">
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Burkina"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="AES"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Motivation"
               />
               <input
-                className="btn"
+                className="btn rounded-lg"
                 type="radio"
                 name="frameworks"
                 aria-label="Manga"
@@ -184,12 +182,12 @@ const BoutiquePage = () => {
         <div className=" mb-28 ">
           {/* PREMIER LIGNE DU CAROUSELLE */}
           <div className="carousel carousel-center gap-2 w-full pl-36 pr-36">
-            <div className="carousel-item w-2/12 lg:w-3/12 mb-4 ">
+            <div className="carousel-item w-2/12 lg:w-3/12 mb-4">
               <div className="flex-col">
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=""
+                  className="rounded-2xl"
                 />
                 <p className="font-extrabold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -201,7 +199,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -213,7 +211,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_CHINO_DENIM_Bleu_KX1192_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -225,7 +223,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Vert_KX1247_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -237,7 +235,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/T-SHIRT_CALI_DELAVE_Bleu_KX1261_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -249,7 +247,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_CHINO_DENIM_Bleu_KX1192_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -261,7 +259,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -276,7 +274,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=""
+                  className="rounded-2xl"
                 />
                 <p className="font-extrabold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -288,7 +286,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -300,7 +298,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_CHINO_DENIM_Bleu_KX1192_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -312,7 +310,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Vert_KX1247_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -324,7 +322,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/T-SHIRT_CALI_DELAVE_Bleu_KX1261_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -336,7 +334,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_CHINO_DENIM_Bleu_KX1192_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -348,7 +346,7 @@ const BoutiquePage = () => {
                 <img
                   src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
                   alt="SHORT WAFFLE KNIT SPRINTER"
-                  className=" "
+                  className="rounded-2xl"
                 />
                 <p className="font-bold text-sm mt-1">50$</p>
                 <p className="font-light">SHORT WAFFLE KNIT SPRINTER</p>
@@ -415,52 +413,69 @@ const BoutiquePage = () => {
           {/* =========================================================
             2. GRILLE D'IMAGES ASYMÉTRIQUE (100% Visuels)
            ========================================================= */}
-          <div className="lg:col-span-3 grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[140px] md:auto-rows-[160px]">
-            {/* Image 1 : La pièce maîtresse (Prend 2 colonnes de large ET 2 lignes de hauteur) */}
-            <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
-              <img
-                src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
-                alt="Collection Vedette"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute top-4 left-4 bg-blue-300 border-2 border-blue-500 text-primary-content text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow">
-                Populaire
-              </div>
-            </div>
+          <div className="lg:col-span-3 flex flex-col gap-1">
+  {/* LA GRILLE D'IMAGES ASYMÉTRIQUE */}
+  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[140px] md:auto-rows-[160px]">
+    {/* Image 1 : La pièce maîtresse */}
+    <div className="col-span-2 row-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
+      <img
+        src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
+        alt="Collection Vedette"
+        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+      <div className="absolute top-4 left-4 bg-blue-300 border-2 border-blue-500 text-primary-content text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow">
+        Populaire
+      </div>
+    </div>
 
-            {/* Image 2 : Verticale et fine sur la droite (Prend 2 lignes de hauteur) */}
-            <div className="col-span-2 md:col-span-1 row-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
-              <img
-                src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
-                alt="Focus Produit"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
+    {/* Image 2 : Verticale et fine sur la droite */}
+    <div className="col-span-2 md:col-span-1 row-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
+      <img
+        src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
+        alt="Focus Produit"
+        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    </div>
 
-            {/* Image 3 : Standard (Prend 1 case) */}
-            <div className="rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
-              <img
-                src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
-                alt="Zoom Détail"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
+    {/* Image 3 : Standard */}
+    <div className="rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
+      <img
+        src="/src/assets/SHORT_WAFFLE_KNIT_SPRINTER_Bleu_KX1246_000_plp_model.webp"
+        alt="Zoom Détail"
+        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    </div>
 
-            {/* Image 4 : Large (Prend 2 colonnes de large en bas) */}
-            <div className="col-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
-              <img
-                src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
-                alt="Ambiance Catalogue"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
-          </div>
+    {/* Image 4 : Large */}
+    <div className="col-span-2 rounded-2xl overflow-hidden border border-base-300 bg-base-200 relative group shadow-sm">
+      <img
+        src="/src/assets/MAILLOT_DETE_Bleu_KX1258_000_plp_model.webp"
+        alt="Ambiance Catalogue"
+        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+    </div>
+  </div>
+
+  {/* SYSTEME DE PAGINATION (DaisyUI) */}
+  <div className="flex justify-center mt-1">
+    <div className="join border border-base-300">
+      <button className="join-item btn btn-sm btn-active">1</button>
+      <button className="join-item btn btn-sm">2</button>
+      <button className="join-item btn btn-sm">3</button>
+      <button className="join-item btn btn-sm">»</button>
+    </div>
+  </div>
+</div>
+
+          
+
+          
         </div>
       </div>
 
       <div className="px-6 lg:px-36">
   <div 
-    className="hero min-h-[380px] rounded-3xl overflow-hidden shadow-sm"
+    className="hero min-h-95 rounded-3xl overflow-hidden shadow-sm"
     style={{ backgroundImage: "url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1200&q=80')" }} 
   >
     <div className="hero-overlay bg-black/70"></div> {/* Légèrement plus sombre pour un meilleur contraste de lecture */}
@@ -486,7 +501,7 @@ const BoutiquePage = () => {
           <svg className="w-5 h-5 mr-2 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.488 1.451 5.42 1.453 5.334 0 9.673-4.34 9.677-9.684.002-2.588-1.002-5.022-2.827-6.849-1.826-1.826-4.26-2.827-6.85-2.828-5.344 0-9.682 4.34-9.687 9.686-.001 1.955.509 3.864 1.48 5.519l-.97 3.543 3.633-.953z"/>
           </svg>
-          Discuter de mon projet sur WhatsApp
+          Discuter de votre projet sur WhatsApp
         </a>
       </div>
     </div>
